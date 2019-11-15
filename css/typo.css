@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Antic+Didone&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+
+header h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 10em;
+  text-align: center;
+}
+
+header p {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.25em;
+  text-align: center;
+  justify-content: center;
+}
+
+.fable-moral {
+  font-size: 3.052em;
+  margin: 2.75rem 0 1rem;
+}
+
+#fable01 {
+  font-family: 'Lato', sans-serif;
+}
+
+#fable01 h2 {
+  color: white;
+  font-size: 5em;
+  margin: 2.75rem 0 2.75rem 0;
+  font-family: 'Staatliches', cursive;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+}
+
+#fable01 p {
+  margin-bottom: 2em;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+#fable01 .fable-moral {
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    font-size: 2em;
+}
+
+
+#fable02 {
+  font-family: 'Staatliches', cursive;
+}
+
+#fable02 h2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 8em;
+  text-align: center;
+  color: white;
+}
+#fable02 p {
+  font-family:'Lato', sans-serif;
+
+
+}
+
+#fable03 p{
+  font-family:'Lato', sans-serif;
+
+}
+
+
+#fable03 h2 {
+  font-family: 'Staatliches', cursive;
+  margin: 0px;
+  font-size: 10em;
+  line-height: 0.75;
+  text-align: center;
+
+}

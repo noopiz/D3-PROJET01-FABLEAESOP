@@ -1,0 +1,107 @@
+body {
+  margin : 0;
+}
+
+header {
+  min-height: 100vh;
+  padding: 1em;
+  background-color: 000000
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+    min-height:100vh;
+}
+
+/* Styles utilisés dans fable01 */
+
+#fable01 {
+  min-height: 90vh;
+  background: #000000;
+  padding: 30px;
+}
+
+#fable01 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#fable01 .text-content {
+  background:url('images/wolf.jpeg') top center no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 150px;
+  margin: auto;
+  color: black;
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#fable01 figure {
+  flex-basis: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+}
+
+
+
+#fable02 {
+  min-height: 60vh;
+  background: #6b7b00 url('images/dogandshadow.jpeg') top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 70px;
+}
+
+#fable02 .text-content {
+
+  padding: 42px;
+  margin-top : 0;
+  margin-right :auto;
+  margin-bottom : 0;
+  margin-left : 650px;
+  text-align: right;
+  color: white;
+
+  max-width: 620px;
+}
+
+
+#fable03 {
+  background: #6b7b00 url('images/Lion.jpg') top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+#fable03 h2 {
+  margin-right: 650px;
+  margin-left: auto;
+  margin-bottom:80px;
+  margin-top: 80px;
+color: #fff;
+}
+
+
+#fable03 .main-content {
+
+    justify-content:space-around;
+    margin-right: 600px
+}
+
+#fable03 p {
+  color: #fff;
+  padding: 8vw;
+  border-radius: 3px;
+}
+#fable03 .fable-moral {
+  color: white
+}
